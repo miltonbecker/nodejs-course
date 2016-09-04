@@ -2,7 +2,6 @@ var fs = require('fs');
 var http = require('http');
 
 var server = http.createServer();
-server.listen(8080);
 
 server.on('request', function(request, response) {
   //pick a fairly big image to see the progress
@@ -25,5 +24,7 @@ server.on('request', function(request, response) {
     response.end('Uploaded!');
   });
 });
+
+server.listen(8080);
 
 console.log('Listening...');

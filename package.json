@@ -1,0 +1,9 @@
+{
+  "name": "nodejs-course",
+  "version": "1.0.0",
+  "dependencies": {
+    "ejs": "^2.5.1",
+    "express": "^4.14.0",
+    "request": "^2.74.0"
+  }
+}
